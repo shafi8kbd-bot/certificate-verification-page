@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Skill Certification Verification Portal | Skill India Digital</title>
+    <style>
+        /* Base Styling to resemble the screenshot's minimalist layout */
+        body { font-family: Arial, sans-serif; background-color: #ffffff; color: #333; margin: 0; padding: 0; }
+        .header-bar { background-color: #008000; height: 5px; width: 100%; } /* Green bar */
+        .top-container { max-width: 900px; margin: 0 auto; padding: 10px 20px; }
+        .logo-section { display: flex; align-items: center; padding: 10px 0; }
+        .logo { width: 120px; height: auto; margin-right: 15px; } /* Placeholder for the logo */
+        
+        /* Main Section Flexbox Container */
+        .verified-section { 
+            display: flex; 
+            padding: 30px 0; 
+            border-bottom: 1px solid #eee;
+            align-items: flex-start; /* Align items to the top */
+        }
+        
+        /* Left Column: Status/Checkmark */
+        .status-box { 
+            width: 35%; 
+            text-align: center; 
+            padding-top: 10px; /* Space for the checkmark */
+        }
+        .status-box .check { 
+            font-size: 3em; 
+            color: #007bff; /* Blue checkmark */
+            display: inline-block;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+        .status-box p { 
+            color: #007bff; 
+            font-weight: bold; 
+            margin: 0; 
+            font-size: 1em;
+        }
+
+        /* Right Column: Candidate Details */
+        .details-box { 
+            width: 65%; 
+            font-size: 0.9em; 
+            line-height: 1.6; 
+        }
+        .details-box p {
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+        }
+        .details-box strong { 
+            display: inline-block; 
+            width: 140px; 
+            font-weight: normal; 
+            color: #555;
+        }
+        .details-box span { 
+            color: #333; 
+            font-weight: bold;
+        }
+
+        /* Content Flex for Links Section (Sidebar) */
+        .content-flex { display: flex; max-width: 900px; margin: 0 auto; padding: 20px 20px 50px 20px; }
+        
+        /* Sidebar/Link Section Styling */
+        .sidebar { width: 30%; padding-right: 20px; }
+        .links-section h4 { font-size: 0.9em; color: #777; margin-top: 0; margin-bottom: 5px; font-weight: bold; }
+        .links-section ul { list-style: none; padding: 0; margin-bottom: 20px; }
+        .links-section li a { color: #007bff; text-decoration: none; font-size: 0.85em; display: block; padding: 2px 0; }
+        
+        /* App Links & Footer Logos */
+        .app-links { margin-bottom: 20px; }
+        .app-links p { font-size: 0.8em; margin: 10px 0 5px 0; }
+        /* Using a simple color block for the Play Store image placeholders */
+        .app-links .play-store-mock { 
+            display: block; 
+            width: 120px; 
+            height: 35px; 
+            background-color: #333; 
+            color: white; 
+            text-align: center;
+            line-height: 35px;
+            font-size: 0.7em;
+            margin: 5px 0; 
+            border-radius: 4px;
+        }
+        .nsdc-logos { border-top: 1px solid #eee; padding-top: 15px; }
+        .nsdc-logos img { width: 60px; height: auto; margin-right: 10px; opacity: 0.7; }
+        
+    </style>
+</head>
+<body>
+    <div class="header-bar"></div>
+    <div class="top-container">
+        <div style="text-align: right; font-size: 0.75em; color: #888; margin-bottom: 5px;">
+            <a href="#" style="color: #007bff; text-decoration: none;">Technical Support</a> | <a href="#" style="color: #007bff; text-decoration: none;">Login</a> | <a href="#" style="color: #ffa500; text-decoration: none;">Register</a>
+        </div>
+        
+        <div class="logo-section" style="border-bottom: 1px solid #ccc; justify-content: space-between; padding-top: 0;">
+            <h3 style="color: #008000; margin: 0; font-size: 1.5em;">Skill India</h3>
+            <div style="display: flex; align-items: center;"><span style="font-size: 2em; cursor: pointer;">&#x2261;</span></div>
+        </div>
+
+        <div class="verified-section">
+            
+            <div class="status-box">
+                <span class="check">&#x2714;</span> <p>Verified</p>
+            </div>
+            
+            <div class="details-box">
+                <p><strong>Candidate Name:</strong> <span>Muhammed Shafi K A</span></p>
+                <p><strong>Candidate ID:</strong> <span>CAN_38499074</span></p>
+                <p><strong>TP Id:</strong> <span>TP150442</span></p>
+                <p><strong>TC Name:</strong> <span>Online Training Center</span></p>
+                <p><strong>Document ID:</strong> <span>jmo4jwyx1ygwk3sm</span></p>
+                <p><strong>Issuance Date:</strong> <span>03/10/2025</span></p>
+                <p><strong>Type:</strong> <span>certificate</span></p>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="content-flex">
+        
+        <div class="sidebar">
+            <div class="links-section">
+                <h4>LINKS</h4>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">TR</a></li>
+                    <li><a href="#">TF Scheme Help Video</a></li>
+                    <li><a href="#">National Career Service</a></li>
+                    <li><a href="#">Useful Links</a></li>
+                    <li><a href="#">Sector & SSC</a></li>
+                    <li><a href="#">Verify Issued Document</a></li>
+                </ul>
+                
+                <h4>DISCLAIMER</h4>
+                <ul>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">QP LISTING</a></li>
+                </ul>
+            </div>
+
+            <h4>STAY CONTACT</h4>
+            <div style="margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 0.85em; color: #007bff;"><span style="font-size: 1.2em;">&#x25CF;</span> Facebook</p>
+                <p style="margin: 0; font-size: 0.85em; color: #007bff;"><span style="font-size: 1.2em;">&#x25CF;</span> Twitter</p>
+            </div>
+
+            <div class="app-links">
+                <p>CANDIDATE_REGISTRATION_APP_OFFLINE</p>
+                <div class="play-store-mock">GET IT ON Google Play</div>
+                
+                <p>CANDIDATE_REGISTRATION_APP_OFFLINE</p>
+                <div class="play-store-mock">GET IT ON Google Play</div>
+
+                <p>ASSESSOR_APP</p>
+                <div class="play-store-mock">GET IT ON Google Play</div>
+            </div>
+            
+            <div class="nsdc-logos">
+                <span style="font-size: 0.7em; color: #777;">[NSDC Logo Placeholder]</span>
+                <span style="font-size: 0.7em; color: #777;">[Other Logo Placeholder]</span>
+            </div>
+            
+        </div>
+        
+        <div style="width: 70%;"></div>
+
+    </div>
+</body>
+</html>
